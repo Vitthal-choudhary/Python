@@ -1,0 +1,5 @@
+a = open('poem.txt', 'r')
+data_in_file = a.read()
+to = data_in_file.count(' to ')
+the = data_in_file.count(' the ')
+print('number of to : ', to, '\nnumber of the : ', the)
